@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>RSSFlicks Feeds</title>
+  </head>
+  <body>
+    <outline text="Old Movies">
+      <outline type="rss" text="Film Noir" title="Free Film Noir Movies" xmlUrl="feeds/film-noir.xml" htmlUrl="https://www.openculture.com/free_film_noir_movies"/>
+      <outline type="rss" text="MosFilm" title="Old Sovjet Films" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCEK3tT7DcfWGWJpNEDBdWog" htmlUrl="https://www.youtube.com/channel/UCEK3tT7DcfWGWJpNEDBdWog"/>
+      <outline type="rss" text="Diverse" title="Free Movies Online" xmlUrl="feeds/free-movies-online.xml" htmlUrl="https://www.openculture.com/freemoviesonline"/>
+      <outline type="rss" title="🇩🇪 DEFA Filme" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCSKbHQcEk-42lL--03lbbIw"/>
+      <outline type="rss" title="🇩🇪 Alte Deutsche Filme" xmlUrl="feeds/alte-deutsche-filme.xml"/>
+      <outline type="rss" title="🇩🇪 moviepilot: archive.org" xmlUrl="feeds/moviepilot-archive-org.xml" htmlUrl="https://www.moviepilot.de/liste/kostenlose-filme-bei-archiveorg-lorion42"/>
+      <outline text="DK Classics II">
+        <outline text="Genres">
+          <outline type="rss" text="Alfred Hitchcock Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7scAyh5Buluq_chek2rI2U"/>
+          <outline type="rss" text="Charlie Chan Movies [1080p]" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7tIJdg2WHz5lA_atgghpay"/>
+          <outline type="rss" text="Classic Adventure Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr44XVNoeIpMLInFG5N4xXeh"/>
+          <outline type="rss" text="Classic British Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5WEzSkJ3MINScW7E7trLef"/>
+          <outline type="rss" text="Classic Comedy Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr61aW9dvA8cymECzno7KnxA"/>
+          <outline type="rss" text="Classic Crime/ Detective/Mystery Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5ZWd4VWz_ToUKEpu2a6lPW"/>
+          <outline type="rss" text="Classic Family Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7cyVPmIetScThwDvcO3-SN"/>
+          <outline type="rss" text="Classic Historical Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7aqr85doLK3tLLmKOneKoK"/>
+          <outline type="rss" text="Classic Japanese Films" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6nPbo2KKuSQ-v-mmyAuxUl"/>
+          <outline type="rss" text="Classic Movie Trailers" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4mPQAp0HgZN-5VID4c58gh"/>
+          <outline type="rss" text="Classic Movies 1930s" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7yCwbshXQPJdLsgXVX0mEx"/>
+          <outline type="rss" text="Classic Movies 1940s" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5Qb-ZQVjMdXbTDJRI7NPrh"/>
+          <outline type="rss" text="Classic Movies 1950s" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4DCc-_IBbjPdYi_OOv0L8p"/>
+          <outline type="rss" text="Classic Movies 1960s" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5fHinx03TrPVsNkCNlhdON"/>
+          <outline type="rss" text="Classic Musical Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr56Squmnj4jgMnTchP5geez"/>
+          <outline type="rss" text="Classic Pirate Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7-YUYgFWIs8pxnpd1Ky7jz"/>
+          <outline type="rss" text="Classic Sci-Fi Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6vvRzick3gASL55E5iS-KG"/>
+          <outline type="rss" text="Classic Spy Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5Besmfn5m2L4583wTWAE4t"/>
+          <outline type="rss" text="Classic War Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5KGwTtkN3scQv1jIuaESCk"/>
+          <outline type="rss" text="Classic Western Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7JaLQO6YB09RqOdLY6mA6c"/>
+          <outline type="rss" text="Colorized Classic Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6bjpnbE9-uBE2gbzUwArse"/>
+          <outline type="rss" text="Colorized Film Noir" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4u9T4YOUzFKd9hLoXdApcL"/>
+          <outline type="rss" text="Crime Doctor 1943-49" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4sLgfRkjk_ndws6bMpo_24"/>
+          <outline type="rss" text="Film Noir/ Crime/ Thriller" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4ek6G4A0K0zFS_zt93kDZv"/>
+          <outline type="rss" text="Golden Comedy Movies - Silent Era" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5Ab8HcX2STz4Btzzin-Ooq"/>
+          <outline type="rss" text="Neo-Noir/ Crime/ Thriller" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4XUEcrwkeKcqakfbJfzNTD"/>
+          <outline type="rss" text="The Lone Wolf" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5FkJP7dQ8yhxl4x8SAZmK0"/>
+          <outline type="rss" text="Western Movies 1930s - 1940s" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7_dnbpGokF6LEZFcKvHFuR"/>
+        </outline>
+        <outline text="Actors">
+          <outline type="rss" text="Abbott &amp; Costello Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr74T53yOb2zHkNIY4-OrHjs"/>
+          <outline type="rss" text="Alan Ladd Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5XKrqyvXkzZy8rUBCgMK9a"/>
+          <outline type="rss" text="Alec Guinness Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6dKPw3DDSN2MHfuosHvSVQ"/>
+          <outline type="rss" text="Ann Savage Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6YEwAaNRxon7_g_Av1J6Ad"/>
+          <outline type="rss" text="Ann Sheridan Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr59SMqcIU2I4HpcnBBjsSWP"/>
+          <outline type="rss" text="Anne Bancroft Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7zslePwOVaycWJSykLbOUd"/>
+          <outline type="rss" text="Anne Baxter Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5FoIPqJCvKV0funR0f_RzL"/>
+          <outline type="rss" text="Anthony Quinn Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7YZcSvqi_QpnKEg53YAIVy"/>
+          <outline type="rss" text="Arlene Dahl Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4m7BYNSN9RLWLvFV3cjwGR"/>
+          <outline type="rss" text="Audie Murphy Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6q3Uy3V7mH2XbwD3agS5ss"/>
+          <outline type="rss" text="Audrey Hepburn Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5VH_ufNyjuY8G02mHc0nzX"/>
+          <outline type="rss" text="Ava Gardner Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5sm4m6A46-W_6f1LqKlUCu"/>
+          <outline type="rss" text="Barbara Stanwyck Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5ri6ErSUvoAbPs-t0jfXgs"/>
+          <outline type="rss" text="Basil Rathbone Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5-0KpaXTQc0tYA7OwLqUif"/>
+          <outline type="rss" text="Bela Lugosi Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6BrG8_YXwj5458yyXtt9Z_"/>
+          <outline type="rss" text="Bette Davis Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4tXZ00qaTznHULBUdzgTF4"/>
+          <outline type="rss" text="Betty Grable Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7G5InS0F4LVsvWfcKxjNN2"/>
+          <outline type="rss" text="Bill Elliot Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7BQF1G-WpYmWmeR2SCoKcr"/>
+          <outline type="rss" text="Bing Crosby Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4Bpti8C4QonvBbiuhHL02P"/>
+          <outline type="rss" text="Bob Hope Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4iTTTRwuEerElAaZ-otL3N"/>
+          <outline type="rss" text="Boris Karloff Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4cTSqrdXkOX3TDddDtMme-"/>
+          <outline type="rss" text="Brian Donlevy Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7uJhyalcKUm1JVOzFfMtXL"/>
+          <outline type="rss" text="Broderick Crawford Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4r-x8X3qHB-lLO7Px3rdtk"/>
+          <outline type="rss" text="Burt Lancaster Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6ZZmBvJ9qNrfQVt5VtmKR0"/>
+          <outline type="rss" text="Carole Lombard Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5ku0p4ZhWwjGEdroKtL1jT"/>
+          <outline type="rss" text="Cary Grant Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7UdBvTs-KkvnRa0WXvobTR"/>
+          <outline type="rss" text="Charles Boyer Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4SLwy1LAZ7xC2zjWuNu5hc"/>
+          <outline type="rss" text="Charles Coburn Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7BHTb_8-obIk6NFyAV5Cg8"/>
+          <outline type="rss" text="Charles Laughton Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6aGSIgsir1GohhH33u2s8G"/>
+          <outline type="rss" text="Charlton Heston Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7g3PXrodN4QZIZqkr9RdpI"/>
+          <outline type="rss" text="Claire Trevor Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4tm0ABRU_0zRDAH_0alb5K"/>
+          <outline type="rss" text="Clark Gable Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6Jfx-xfUVpecYfYQ-XkWYz"/>
+          <outline type="rss" text="Claude Rains Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5QqhLDef277Zhh7ePE-kgr"/>
+          <outline type="rss" text="Claudette Colbert Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr79zjCbduEiTZuGmQ8H8qS6"/>
+          <outline type="rss" text="Clifton Webb Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5hc4pIpv4zt1qdXO7sf5LA"/>
+          <outline type="rss" text="Clint Eastwood Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4lbs6GMb-4Nr22uTfgAeyZ"/>
+          <outline type="rss" text="Cornel Wilde Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4CRs848k4elh2yKUM31fWZ"/>
+          <outline type="rss" text="Dale Robertson Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4Sr85-47oa0pbls1Rr1Yr-"/>
+          <outline type="rss" text="Dan Duryea Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7IeIGpwFgRbL4IEvVQ-2Z6"/>
+          <outline type="rss" text="Dana Andrews Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5WKa90QxOg8iwjsqwmzpME"/>
+          <outline type="rss" text="David Niven Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7LPvGejOWCf1O9eGkZzTYG"/>
+          <outline type="rss" text="Deanna Durbin Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4DmWXqs8InH98lrctRLdqv"/>
+          <outline type="rss" text="Dennis O'Keefe Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4t6mibbkZJqHDpgHRht_ay"/>
+          <outline type="rss" text="Diana Dors Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7ETEtcm6ph8JvODh8IKBpB"/>
+          <outline type="rss" text="Dick Powell Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4yLow7vgVbK-IEbL5z7ecp"/>
+          <outline type="rss" text="Dirk Bogarde Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4_fuliIfoYe8FiG8-fhGXZ"/>
+          <outline type="rss" text="Don Ameche Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4t08KEfkQWKQrSA9J2sKgI"/>
+          <outline type="rss" text="Doris Day Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5xLWCWz1AObOlrphAk9Z9w"/>
+          <outline type="rss" text="Edmond O'Brien Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr60HigMQes2_JCgNXiVNvrl"/>
+          <outline type="rss" text="Edward G. Robinson Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6_PePJPHY7rQTnJ5L8gVdM"/>
+          <outline type="rss" text="Eleanor Parker Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5eYjbd8riyI61DDpWNWD2C"/>
+          <outline type="rss" text="Elizabeth Taylor Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6fpAwIMv0hoVhC0Qp3WM_k"/>
+          <outline type="rss" text="Errol Flynn Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4kwxv7o27srjnI4Sh-_OCX"/>
+          <outline type="rss" text="Evelyn Keyes Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5eLhZ-30UN9RwxrQvftkSB"/>
+          <outline type="rss" text="Fred MacMurray Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6KS0Q10O8L1CgFZiOSHXcJ"/>
+          <outline type="rss" text="Fredric March Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5wK3j8cTPnMcFkfzTKN0cx"/>
+          <outline type="rss" text="Gary Cooper Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4dWDpUfj__NS_uQokU6IcI"/>
+          <outline type="rss" text="Gene Tierney Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5lQcwqn7qQgecSul7iqsv5"/>
+          <outline type="rss" text="George Montgomery Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr59zzX_ZN6hGzcA_ngUuopN"/>
+          <outline type="rss" text="George Raft Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr43qmMaHQ1ou0EX1yEDptgs"/>
+          <outline type="rss" text="George Sanders Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6Vd7zMSsOYYunUp2UOQW49"/>
+          <outline type="rss" text="Ginger Rogers Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr59fNVTSAT4BAb2lU2sj99C"/>
+          <outline type="rss" text="Glenn Ford Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7luM-OSf23nDiteuaZ5tVA"/>
+          <outline type="rss" text="Gregory Peck Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4TARvmC8vHKzeQ9t6Iek1y"/>
+          <outline type="rss" text="Greta Garbo Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4VTFTovW7YWGuEiFj_W7dF"/>
+          <outline type="rss" text="Harold Lloyd Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6-qTqLU504yPXm5PVOUqCn"/>
+          <outline type="rss" text="Henry Fonda Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7p0i3B8XgcHSefCKKpZcM_"/>
+          <outline type="rss" text="Howard Duff Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5Ua2C12Tb19n2Fm5TCEl2h"/>
+          <outline type="rss" text="Humphrey Bogart Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7E5uPIYEoXrYcODeuD59kk"/>
+          <outline type="rss" text="Ida Lupino Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5-aFyIubL_03aHU3wqe9SC"/>
+          <outline type="rss" text="Ingrid Bergman Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr61sDJQqXlormvrt7k6G972"/>
+          <outline type="rss" text="Irene Dunne Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5Lo5xg5J5z04Q9vLRCjjMy"/>
+          <outline type="rss" text="Jack Benny Movies &amp; Shows" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4H1XiLf_upzJziV57bpRcp"/>
+          <outline type="rss" text="Jack Hawkins Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr55XdU8wjhxEdcGFr1pgJtD"/>
+          <outline type="rss" text="James Cagney Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4hHGReVo72UW4-XcvIDMj7"/>
+          <outline type="rss" text="James Mason Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7yIjxdiQZwE_46n0aJ3fSY"/>
+          <outline type="rss" text="James Stewart Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4BLZLZykfxGE3800WknMW3"/>
+          <outline type="rss" text="Jean Arthur Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr48CM-8o7RaghvDNE4bGFmO"/>
+          <outline type="rss" text="Jeff Chandler Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4kCGia8yqIqrd5QIzATbrI"/>
+          <outline type="rss" text="Jennifer Jones Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7THIfzQiK8_YKfO9iTUI0E"/>
+          <outline type="rss" text="Jerry Lewis Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4JsitaFSTuQ2gD5aEYSVvd"/>
+          <outline type="rss" text="Joan Bennett Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4x_BK9AnCOYIZsCiJooYbx"/>
+          <outline type="rss" text="Joan Blondell Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7Qah3EIfXSCg0yl6ZWm7z5"/>
+          <outline type="rss" text="Joan Fontaine Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5gME_c2IjyTLu63CRFYDKp"/>
+          <outline type="rss" text="Joel McCrea Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6TyXBCz2szOOx1WiL--EsG"/>
+          <outline type="rss" text="John Garfield Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7zXymNMl4bhoRbv66l39ya"/>
+          <outline type="rss" text="John Mills Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6AZmpf1k2c4smezT24nyW7"/>
+          <outline type="rss" text="John Payne Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr773EQPHwbU2u5A7jPxAYKq"/>
+          <outline type="rss" text="John Wayne Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4c-bGHd2yGCONOaOSYL3WV"/>
+          <outline type="rss" text="Joseph Cotten Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6p1ZX3VjpXoNQqUCIpm9P4"/>
+          <outline type="rss" text="Kenneth More Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4UenBT0UI4O0atrmSPWGJb"/>
+          <outline type="rss" text="Kirk Douglas Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5KSXrBElxpRLj_Pk2Ytzii"/>
+          <outline type="rss" text="Laurel &amp; Hardy Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5zgmHu9J_b7N1hEIdV6izA"/>
+          <outline type="rss" text="Laurence Olivier Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4xeye7IabWEGxKQhvod7ti"/>
+          <outline type="rss" text="Lee J. Cobb Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5dbdArtojCRfasqbEaeVom"/>
+          <outline type="rss" text="Lee Marvin Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4o4Utawhecd6_ndMK2G0_c"/>
+          <outline type="rss" text="Linda Darnell Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7ECawWGMp1II1KevTEjfmw"/>
+          <outline type="rss" text="Loretta Young Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr766cGEp3uFkBqNJOopI9el"/>
+          <outline type="rss" text="Louis Hayward Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7MU-Zddi1PKDRLJTLll8dm"/>
+          <outline type="rss" text="Margaret Lockwood Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5TmgSzUPUwiTOzDB3Kroqw"/>
+          <outline type="rss" text="Marilyn Monroe Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7w3PusoBphMtr_9ZhYmkF1"/>
+          <outline type="rss" text="Marlon Brando Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4ReNKw-6M4MoStbnk77ib4"/>
+          <outline type="rss" text="Maureen O' Hara Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4_5Qt-dkJhK9Df3PlfrlX5"/>
+          <outline type="rss" text="Melvyn Douglas Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr58Ot3w_MOG-a2K67973HDk"/>
+          <outline type="rss" text="Michael Caine Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6mamj1rhKrQlmd83r1LSRA"/>
+          <outline type="rss" text="Montgomery Clift Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6fwDEAYGVfiWrepGhS6bRC"/>
+          <outline type="rss" text="Norman Wisdom Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr70ICJxVf3Yn4yMOLqFFCLo"/>
+          <outline type="rss" text="Olivia de Havilland Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7PD1JxXMPEFuXIIa3EM3N4"/>
+          <outline type="rss" text="Orson Welles Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7ROfCmsa_2RgUxJRYy5PDz"/>
+          <outline type="rss" text="Paulette Goddard Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5rDxxAFkAFXDMFN1HLmMDS"/>
+          <outline type="rss" text="Peter Finch Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7PKqUV9fm2x4dGJi-HhwGy"/>
+          <outline type="rss" text="Peter Lorre Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6hqsFFewotSdAOafsVKdvc"/>
+          <outline type="rss" text="Peter Sellers Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4Iju1vkUd9a1xdgDsE3WzD"/>
+          <outline type="rss" text="Philip Carey Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7F80K3Qmghb2RRRBjNIMNw"/>
+          <outline type="rss" text="Preston Foster Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6rhfKba-QTqioP_UohO89-"/>
+          <outline type="rss" text="Randolph Scott Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7LXiVMSoV45H8cWP1ZjGCo"/>
+          <outline type="rss" text="Ray Milland Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6L8XDAj6ymIgr6OQoDCZb5"/>
+          <outline type="rss" text="Rex Harrison Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7-A_15xN4N-o00MjNiGaA8"/>
+          <outline type="rss" text="Richard Attenborough Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5MZFixa_kLL6GZczszRRWb"/>
+          <outline type="rss" text="Richard Burton Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr65fNmoQws2ZxjB-UPB-4DP"/>
+          <outline type="rss" text="Richard Conte Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5yJddJwCDpg_O5zUrQDP-9"/>
+          <outline type="rss" text="Richard Dix Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6glvnqESJ1xsQPv4K-3PIA"/>
+          <outline type="rss" text="Richard Widmark Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr52iimEHUu4iif8Cv4vp7Lf"/>
+          <outline type="rss" text="Rita Hayworth Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6sQNPCKU8NSrl3-ZNQCgcy"/>
+          <outline type="rss" text="Robert Cummings Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5Ykxf62YkWdRfpI5Kr7Ebt"/>
+          <outline type="rss" text="Robert Mitchum Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr60sFCKgfylGH7pZKiBuUU7"/>
+          <outline type="rss" text="Robert Newton Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7stdX2zoj64mBpg1uTWcc7"/>
+          <outline type="rss" text="Robert Ryan Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6f4uekTp_H9wAcHGeQZ_E2"/>
+          <outline type="rss" text="Robert Taylor Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7hmDnm5gaIM4sqwBRBrkvp"/>
+          <outline type="rss" text="Robert Young Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4LvcD-y3hGwsI5hNG4wduM"/>
+          <outline type="rss" text="Rock Hudson Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr4TWpAW4agnkZyxlajKX7l_"/>
+          <outline type="rss" text="Rod Cameron Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5G2_DFOs8f4Br2KQaIUiu7"/>
+          <outline type="rss" text="Roger Moore Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7p5MJlec8sveRTndssmtDh"/>
+          <outline type="rss" text="Roland Young Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6ILdudDXt9D1Yp468k8THp"/>
+          <outline type="rss" text="Ronald Colman Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7QJf4_1uOM-pnrL9ZAw5Pf"/>
+          <outline type="rss" text="Ronald Reagan Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6xt2Tl2jY0R2IpcqW-nwbA"/>
+          <outline type="rss" text="Rory Calhoun Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr40CS0GiHHh6hMdFZEMZCEM"/>
+          <outline type="rss" text="Rosalind Russell Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5CM5vHjBa0QVROx1FslIao"/>
+          <outline type="rss" text="Sean Connery Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5gyTsqIzES0pcIbhdZ2kcM"/>
+          <outline type="rss" text="Shelley Winters Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr59dmoqEUBUek-Z22eu16Cr"/>
+          <outline type="rss" text="Spencer Tracy Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5Yu9tF1Tx2rEykpyBvWN3D"/>
+          <outline type="rss" text="Stephen Boyd Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5TnHrT5-aoeHgbHkNpx2tV"/>
+          <outline type="rss" text="Sterling Hayden Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7AHTnQFmbtvHiVkjkQc9Za"/>
+          <outline type="rss" text="Steve Cochran Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7_Tx2drzqlrQiIL2M-mTAg"/>
+          <outline type="rss" text="Stewart Granger Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7JeQ5PfzLb2JKUHFbvBck7"/>
+          <outline type="rss" text="Susan Hayward Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr43P3Q9RAOpFgx4vYZ0yh5J"/>
+          <outline type="rss" text="Terry Thomas Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5Pr0PRLKqFlEJ2FPXWMBj4"/>
+          <outline type="rss" text="Tony Curtis Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr5crca9xMHrjOET4Mu9ny3o"/>
+          <outline type="rss" text="Trevor Howard movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6XXBdp6CiUJcD9R1ssVC8O"/>
+          <outline type="rss" text="Tyrone Power Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7kJuTdRyK43COqEV-nvTyn"/>
+          <outline type="rss" text="Van Johnson Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6olLGpvE9nyK_hegg2T7vt"/>
+          <outline type="rss" text="Victor Mature Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6D_nfH7L1iCMC2RMeccm3o"/>
+          <outline type="rss" text="Vivien Leigh Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr41Pbz1KD4GdquxhSsy_y-U"/>
+          <outline type="rss" text="Wallace Beery Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7F5rcH-OWe21153tUWeZad"/>
+          <outline type="rss" text="Walter Brennan Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7mUbtuk6v0TMI_fKxSLLw8"/>
+          <outline type="rss" text="William Holden Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7NcoCpM4AvFMLzb--QEnz8"/>
+          <outline type="rss" text="William Powell Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr7qKihBCnUerRMa1d0RFqCI"/>
+          <outline type="rss" text="Yul Brynner Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBFa2yUBFRr6b_FYunE3-qxYOITgJXPzB"/>
+        </outline>
+      </outline>
+
+    </outline>
+    <outline text="Free Movie Collections">
+      <outline type="rss" title="4000 Youtube movies" xmlUrl="feeds/best-free-movies-on-youtube.xml"/>
+      <outline type="rss" title="FilmRise Movies" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC8IHAQMuiJdY6ALuhG7iU8Q"/>
+      <outline type="rss" title="🇩🇪 Alle Filme auf Deutsch - Drama" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PL-at_t3BeRSAOe2AZm6-XabJyQKB4yeIs"/>
+      <outline type="rss" title="🇩🇪 Alle Filme auf Deutsch - Action &amp; Abenteuer" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PL-at_t3BeRSDsB1wOc9VrbR2NKJmzwzYy"/>
+      <outline type="rss" title="🇩🇪 Alle Filme auf Deutsch - Krimi &amp; Mystery" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PL-at_t3BeRSCR9YkLJhBd5myT_utaUfX9"/>
+      <outline type="rss" title="🇩🇪 FILm&amp;Clips - Western" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLzMoz0q_0dE2Tr8iKPeMvBTTu-vc87H-I"/>
+      <outline type="rss" title="🇩🇪 ArtFlix" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUVH79pnWVC6aL1_uAB3ylQ"/>
+    </outline>
+
+    <outline text="German Public TV">
+      <outline title="ARD" text="ARD" description="ARD" type="rss" id="lvgggtu" sortColumn="time" xmlUrl="https://mediathekviewweb.de/feed?query=!ard" htmlUrl="https://mediathekviewweb.de/#query=!ard" updateInterval="-1" collapsed="true"/>
+      <outline title="ZDF" text="ZDF" description="ZDF" type="rss" id="hddwexq" sortColumn="time" xmlUrl="https://mediathekviewweb.de/feed?query=!zdf" htmlUrl="https://mediathekviewweb.de/#query=!zdf" updateInterval="-1" collapsed="true"/>
+      <outline title="rbb" text="rbb" description="rbb" type="rss" id="hmmpppw" sortColumn="time" xmlUrl="https://mediathekviewweb.de/feed?query=!rbb" htmlUrl="https://mediathekviewweb.de/#query=!rbb" updateInterval="-1" collapsed="true"/>
+      <outline title="Arte" text="Arte" description="Arte" type="rss" id="timlhyj" sortColumn="time" xmlUrl="https://mediathekviewweb.de/feed?query=!arte" htmlUrl="https://mediathekviewweb.de/#query=!arte" updateInterval="-1" collapsed="true"/>
+      <outline title="BR" text="BR" description="BR" type="rss" id="hciirlf" sortColumn="time" xmlUrl="https://mediathekviewweb.de/feed?query=!br" htmlUrl="https://mediathekviewweb.de/#query=!br" updateInterval="-1" collapsed="true"/>
+      <outline title="SRF" text="SRF" description="SRF" type="rss" id="ksayecr" sortColumn="time" xmlUrl="https://mediathekviewweb.de/feed?query=!srf" htmlUrl="https://mediathekviewweb.de/#query=!srf" updateInterval="-1" collapsed="true"/>
+      <outline title="MDR" text="MDR" description="MDR" type="rss" id="aupekkv" sortColumn="time" xmlUrl="https://mediathekviewweb.de/feed?query=!mdr" htmlUrl="https://mediathekviewweb.de/#query=!mdr" updateInterval="-1" collapsed="true"/>
+      <outline title="3sat" text="3sat" description="3sat" type="rss" id="mnhbknr" sortColumn="time" xmlUrl="https://mediathekviewweb.de/feed?query=!3sat" htmlUrl="https://mediathekviewweb.de/#query=!3sat" updateInterval="-1" collapsed="true"/>
+      <outline title="WDR" text="WDR" description="WDR" type="rss" id="byocwyd" sortColumn="time" xmlUrl="https://mediathekviewweb.de/feed?query=!wdr" htmlUrl="https://mediathekviewweb.de/#query=!wdr" updateInterval="-1" collapsed="true"/>
+      <outline title="NDR" text="NDR" description="NDR" type="rss" id="cuhjikx" sortColumn="time" xmlUrl="https://mediathekviewweb.de/feed?query=!ndr" htmlUrl="https://mediathekviewweb.de/#query=!ndr" updateInterval="-1" collapsed="true"/>
+    </outline>
+
+    <outline title="Art">
+      <outline title="Bob Ross" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLAEQD0ULngi67rwmhrkNjMZKvyCReqDV4"/>
+      <outline title="The Art Channel" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCuM-z4rFVOBSBAxFY-5gjiQ"/>
+      <outline title="Great Art Explained" xmlUrl="https://www.youtube.com/channel/UCePDFpCr78_qmVtpoB1Axaw"/>
+    </outline>
+
+    <outline title="History">
+      <outline title="Historia Civilis" description="Youtube channel on Roman history" htmlUrl="https://www.youtube.com/@HistoriaCivilis" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCv_vLHiWVBh_FR9vbeuiY-A"/>
+    </outline>
+  </body>
+</opml>

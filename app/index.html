@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RSSFlicks</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header>
+    <h1><a href="#/">RSSFlicks</a></h1>
+    <nav aria-label="Main">
+      <a href="#/all" data-route="all">All</a>
+      <a href="#/history" data-route="history">History</a>
+    </nav>
+    <input id="search" type="search" placeholder="Search films…" aria-label="Search films" autocomplete="off" hidden>
+    <span id="count"></span>
+    <div class="actions">
+      <button type="button" id="settings" class="icon settings" title="Settings" aria-label="Settings">⚙︎</button>
+    </div>
+  </header>
+  <main>
+    <p id="status"></p>
+    <div id="view"></div>
+  </main>
+  <dialog id="settings-dialog" aria-labelledby="settings-title">
+    <div class="dialog-bar">
+      <h2 id="settings-title">Settings</h2>
+      <button type="button" id="settings-close" class="icon" aria-label="Close (Esc)">✕</button>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Settings">
+      <button type="button" role="tab" id="tab-subscriptions" data-tab="subscriptions" aria-controls="panel-subscriptions">Subscriptions</button>
+      <button type="button" role="tab" id="tab-custom" data-tab="custom" aria-controls="panel-custom">Custom Feeds</button>
+      <button type="button" role="tab" id="tab-proxy" data-tab="proxy" aria-controls="panel-proxy">Proxy</button>
+    </div>
+    <div class="dialog-body">
+      <section role="tabpanel" id="panel-subscriptions" data-panel="subscriptions" aria-labelledby="tab-subscriptions">
+        <input id="catalog-filter" type="search" placeholder="Filter catalog…" aria-label="Filter catalog" autocomplete="off">
+        <p id="catalog-status" class="form-status" role="status"></p>
+        <div id="catalog-list"></div>
+        <div class="refresh-section">
+          <button type="button" id="refresh">Force Refresh</button>
+          <span class="hint">Feeds are refreshed automatically once a day.</span>
+        </div>
+      </section>
+      <section role="tabpanel" id="panel-custom" data-panel="custom" aria-labelledby="tab-custom" hidden>
+        <h3>YouTube channel, playlist or feed URL</h3>
+        <form id="url-form">
+          <input id="url-input" type="text" placeholder="https://www.youtube.com/@channel, a playlist or an RSS feed URL" aria-label="YouTube or feed URL" autocomplete="off" spellcheck="false">
+          <button type="submit">Add</button>
+        </form>
+        <p id="url-status" class="form-status" role="status"></p>
+        <h3>Your custom feeds</h3>
+        <p id="custom-empty" class="hint">No custom feeds yet.</p>
+        <div id="custom-list"></div>
+      </section>
+      <section role="tabpanel" id="panel-proxy" data-panel="proxy" aria-labelledby="tab-proxy" hidden>
+        <h3>CORS proxy</h3>
+        <p class="hint">YouTube and many other hosts do not allow browsers to read their feeds. Enter the URL prefix of a CORS proxy you trust; the feed URL is appended URL-encoded. It is only used when a direct request fails.</p>
+        <input id="proxy-input" type="url" placeholder="https://my-proxy.example/?url=" aria-label="CORS proxy URL prefix" autocomplete="off" spellcheck="false">
+        <p id="proxy-status" class="form-status" role="status"></p>
+      </section>
+    </div>
+  </dialog>
+  <dialog id="player" aria-labelledby="player-title">
+    <div class="player-bar">
+      <h2 id="player-title"></h2>
+      <button type="button" id="player-close" aria-label="Close (Esc)">✕</button>
+    </div>
+    <div id="player-frame" class="media"></div>
+  </dialog>
+</body>
+</html>
