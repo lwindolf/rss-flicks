@@ -9,20 +9,23 @@ const LOCAL_FEEDS_URL = new URL('../data/feeds/', import.meta.url).href;
 // so browsers refuse to hand their feeds to a page. If you run or trust a CORS
 // proxy, set its URL prefix (the feed URL is appended URL-encoded), e.g.
 // 'https://my-proxy.example/?url='. It is only used when a direct fetch fails.
+// corsproxy.io is the default so the app works out-of-the-box on GitHub Pages;
+// an explicitly saved empty value disables the proxy.
 const PROXY_KEY = 'rssflicks:corsProxy';
+export const DEFAULT_CORS_PROXY = 'https://corsproxy.io/?url=';
 
 export function getCorsProxy() {
   try {
-    return localStorage.getItem(PROXY_KEY) || '';
+    const stored = localStorage.getItem(PROXY_KEY);
+    return stored === null ? DEFAULT_CORS_PROXY : stored;
   } catch {
-    return '';
+    return DEFAULT_CORS_PROXY;
   }
 }
 
 export function setCorsProxy(value) {
   try {
-    if (value) localStorage.setItem(PROXY_KEY, value);
-    else localStorage.removeItem(PROXY_KEY);
+    localStorage.setItem(PROXY_KEY, value);
   } catch {
     // localStorage unavailable: the proxy is not remembered.
   }

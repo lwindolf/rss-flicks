@@ -61,7 +61,7 @@
       </section>
       <section role="tabpanel" id="panel-proxy" data-panel="proxy" aria-labelledby="tab-proxy" hidden>
         <h3>CORS proxy</h3>
-        <p class="hint">YouTube and many other hosts do not allow browsers to read their feeds. Enter the URL prefix of a CORS proxy you trust; the feed URL is appended URL-encoded. It is only used when a direct request fails.</p>
+        <p class="hint">YouTube and many other hosts do not allow browsers to read their feeds. By default https://corsproxy.io is used. Enter the URL prefix of a CORS proxy you trust instead (the feed URL is appended URL-encoded), or clear the field to disable it. It is only used when a direct request fails.</p>
         <input id="proxy-input" type="url" placeholder="https://my-proxy.example/?url=" aria-label="CORS proxy URL prefix" autocomplete="off" spellcheck="false">
         <p id="proxy-status" class="form-status" role="status"></p>
       </section>

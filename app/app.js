@@ -628,7 +628,7 @@ urlForm.addEventListener('submit', async (event) => {
 proxyInput.value = getCorsProxy();
 proxyInput.addEventListener('change', () => {
   setCorsProxy(proxyInput.value.trim());
-  setFormStatus(proxyStatus, proxyInput.value.trim() ? 'Proxy saved.' : 'Proxy removed.');
+  setFormStatus(proxyStatus, proxyInput.value.trim() ? 'Proxy saved.' : 'Proxy disabled.');
 });
 catalogFilter.addEventListener('input', filterCatalog);
 document.getElementById('settings').addEventListener('click', () => openSettings());
