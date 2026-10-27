@@ -230,7 +230,7 @@
 
     <outline title="Art">
       <outline title="Bob Ross" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLAEQD0ULngi67rwmhrkNjMZKvyCReqDV4"/>
-      <outline title="The Art Channel" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCuM-z4rFVOBSBAxFY-5gjiQ"/>
+      <outline title="The Art Channel" htmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCuM-z4rFVOBSBAxFY-5gjiQ" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCuM-z4rFVOBSBAxFY-5gjiQ"/>
       <outline title="Great Art Explained" xmlUrl="https://www.youtube.com/channel/UCePDFpCr78_qmVtpoB1Axaw"/>
     </outline>
 
