@@ -15,6 +15,6 @@ This is only a PoC to show what can be done with RSS, vanilla JS, minimal depend
 
 For testing run
 
-     npx serve
+     npm start
 
 or use the Github pages deployment workflow.
