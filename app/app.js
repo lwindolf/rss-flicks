@@ -301,13 +301,36 @@ function createAddButton() {
   return button;
 }
 
+const CORS_BANNER_KEY = 'rssflicks:corsBannerDismissed';
+
+function isCorsBannerDismissed() {
+  try {
+    return localStorage.getItem(CORS_BANNER_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
 function createCorsBanner() {
   const banner = el('div', 'notice cors-banner');
-  banner.innerHTML = `
+  const close = el('button', 'icon banner-close', '✕');
+  close.type = 'button';
+  close.title = 'Dismiss';
+  close.setAttribute('aria-label', 'Dismiss');
+  close.addEventListener('click', () => {
+    banner.remove();
+    try {
+      localStorage.setItem(CORS_BANNER_KEY, '1');
+    } catch {
+      // localStorage unavailable: the banner reappears on the next visit.
+    }
+  });
+  banner.append(close);
+  banner.insertAdjacentHTML('beforeend', `
     <p>Fecthing some feeds was blocked by your browser!</p>
 
     <p>Install a browser extension like <a href="https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/" target="_blank" rel="noopener">CORS everywhere</a> to allow fetching blocked feeds or configure a CORS proxy in the settings.</p>
-  `;
+  `);
   return banner;
 }
 
@@ -320,7 +343,8 @@ function renderStart(all) {
   }
 
   const groups = groupBy(all, (sub) => categoryName(sub.path));
-  const sections = all.some((sub) => sub.corsBlocked) ? [createCorsBanner()] : [];
+  const sections = all.some((sub) => sub.corsBlocked) && !isCorsBannerDismissed()
+    ? [createCorsBanner()] : [];
   const usedColors = new Set();
   for (const name of [...groups.keys()].sort(byName)) {
     const section = el('section', 'category');
@@ -377,7 +401,6 @@ function renderFilms(title, feedSubs, single) {
   } else if (!single && failed.length) {
     children.push(el('p', 'notice', `${failed.length} feed(s) could not be refreshed.`));
   }
-  if (failed.some((sub) => sub.corsBlocked)) children.push(createCorsBanner());
 
   const seen = new Set();
   const movies = feedSubs.flatMap((sub) => sub.items).filter((movie) => {
