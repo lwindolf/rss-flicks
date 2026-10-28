@@ -8,6 +8,7 @@ import {
 import {
   createTile, resetThumbnails, setPlayListener,
 } from './tiles.js';
+import { registerAction, initActions } from './actions.js';
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 const RETRY_MS = 60 * 60 * 1000;
@@ -21,7 +22,6 @@ const navLinks = document.querySelectorAll('header nav a');
 const countEl = document.getElementById('count');
 const statusEl = document.getElementById('status');
 const viewEl = document.getElementById('view');
-const refreshButton = document.getElementById('refresh');
 const settingsDialog = document.getElementById('settings-dialog');
 const tabButtons = [...settingsDialog.querySelectorAll('[role="tab"]')];
 const tabPanels = [...settingsDialog.querySelectorAll('[role="tabpanel"]')];
@@ -327,9 +327,9 @@ function createCorsBanner() {
   });
   banner.append(close);
   banner.insertAdjacentHTML('beforeend', `
-    <p>Fecthing some feeds was blocked by your browser!</p>
-
-    <p>Install a browser extension like <a href="https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/" target="_blank" rel="noopener">CORS everywhere</a> to allow fetching blocked feeds or configure a CORS proxy in the settings.</p>
+    <p>Fetching some feeds was blocked by your browser!</p>
+    <p>Install &amp; enable a browser extension like <a href="https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/" target="_blank" rel="noopener">CORS everywhere</a> to allow fetching blocked feeds or configure a CORS proxy in the settings.</p>
+    <p><button type="button" data-action="refresh" data-busy-label="Refreshing…">Retry fetching</button></p>
   `);
   return banner;
 }
@@ -438,6 +438,7 @@ function renderHistory() {
   document.title = 'Watch history – RSSFlicks';
   const head = el('div', 'view-head');
   head.append(backLink(), el('h2', '', 'Watch history'));
+  const toolbar = el('div', 'view-toolbar');
   if (history.size) {
     const clear = el('button', '', 'Clear');
     clear.type = 'button';
@@ -451,7 +452,7 @@ function renderHistory() {
         console.warn('Could not clear watch history', error);
       }
     });
-    head.append(clear);
+    toolbar.append(clear);
   }
 
   const watched = [...history.values()].sort((a, b) => b.watchedAt - a.watchedAt);
@@ -473,7 +474,7 @@ function renderHistory() {
     section.append(el('h3', '', label), tiles);
     sections.push(section);
   }
-  viewEl.replaceChildren(head, ...sections);
+  viewEl.replaceChildren(head, ...(toolbar.hasChildNodes() ? [toolbar] : []), ...sections);
 
   applySearch();
   if (!entries.length) statusEl.textContent = 'Nothing watched yet. Films you play show up here.';
@@ -673,17 +674,14 @@ settingsDialog.addEventListener('click', (event) => {
   if (event.target === settingsDialog) settingsDialog.close();
 });
 
-refreshButton.addEventListener('click', async () => {
-  refreshButton.disabled = true;
-  refreshButton.textContent = 'Refreshing…';
+registerAction('refresh', async () => {
   try {
     await refreshDue(true);
   } finally {
-    refreshButton.disabled = false;
-    refreshButton.textContent = 'Force Refresh';
     render();
   }
 });
+initActions();
 
 // ---------------------------------------------------------------- startup
 
