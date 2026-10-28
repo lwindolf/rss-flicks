@@ -7,6 +7,8 @@ client-side now server (besides the RSS and video hoster) is involved. All state
 
 The app allows to choose from a pre-defined feed catalog or to add custom feeds.
 
+https://github.com/user-attachments/assets/26e13ec9-c2ae-4890-8f51-a702d5db5b37
+
 ## The CORS problem
 
 The app only becomes really useful with a browser extension to allow CORS. CORS is a browser standard 
