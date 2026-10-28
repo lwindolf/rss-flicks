@@ -5,21 +5,14 @@ import { FeedParser } from '../lib/lzone-feed-parser/src/parser.js';
 export const OPML_URL = new URL('../data/feeds.opml', import.meta.url);
 const LOCAL_FEEDS_URL = new URL('../data/feeds/', import.meta.url).href;
 
-// Many feed hosts (e.g. youtube.com, mediathekviewweb.de) send no CORS headers,
-// so browsers refuse to hand their feeds to a page. If you run or trust a CORS
-// proxy, set its URL prefix (the feed URL is appended URL-encoded), e.g.
-// 'https://my-proxy.example/?url='. It is only used when a direct fetch fails.
-// corsproxy.io is the default so the app works out-of-the-box on GitHub Pages;
-// an explicitly saved empty value disables the proxy.
+// Allow optional CORS proxy for cross-origin feed fetching.
 const PROXY_KEY = 'rssflicks:corsProxy';
-export const DEFAULT_CORS_PROXY = 'https://corsproxy.io/?url=';
 
 export function getCorsProxy() {
   try {
-    const stored = localStorage.getItem(PROXY_KEY);
-    return stored === null ? DEFAULT_CORS_PROXY : stored;
+    return localStorage.getItem(PROXY_KEY);
   } catch {
-    return DEFAULT_CORS_PROXY;
+    return null;
   }
 }
 
@@ -126,8 +119,7 @@ async function resolveYoutube(url) {
   try {
     html = await fetchText(url.href);
   } catch {
-    throw new Error('Cannot look up this channel (blocked by the browser). '
-      + 'Use the channel URL containing /channel/UC… or set a CORS proxy.');
+    throw new Error('Cannot look up this Youtube channel/playlist!');
   }
   const [rss] = FeedParser.linkAutoDiscover(html, url.href).filter((link) => link.startsWith(YOUTUBE_FEED));
   if (rss) return rss;

@@ -3,7 +3,7 @@ import {
   getAllHistory, putHistory, deleteHistory, clearHistory,
 } from './db.js';
 import {
-  loadCatalog, loadFeed, resolveSubscription, isLocalFeed, getCorsProxy, setCorsProxy,
+  loadCatalog, loadFeed, resolveSubscription, isLocalFeed, getCorsProxy, setCorsProxy
 } from './feeds.js';
 import {
   createTile, resetThumbnails, setPlayListener,
@@ -36,7 +36,7 @@ const catalogFilter = document.getElementById('catalog-filter');
 const catalogStatus = document.getElementById('catalog-status');
 const catalogList = document.getElementById('catalog-list');
 
-// url -> { url, name, path, kind, items, fetchedAt, attemptedAt, error }
+// url -> { url, name, path, kind, items, fetchedAt, attemptedAt, error, corsBlocked }
 // kind is 'catalog', 'youtube' or 'rss'.
 const subs = new Map();
 let catalog = null;
@@ -69,7 +69,7 @@ function el(tag, className, text) {
 // ---------------------------------------------------------------- subscriptions
 
 function newSubscription({ url, name, path, kind, items = [] }) {
-  return { url, name, path, kind, items, fetchedAt: 0, attemptedAt: 0, error: null };
+  return { url, name, path, kind, items, fetchedAt: 0, attemptedAt: 0, error: null, corsBlocked: false };
 }
 
 // Persistence failures (e.g. quota) must not break the running session.
@@ -146,7 +146,7 @@ async function recordWatch(movie) {
 const inFlight = new Map();
 
 const signature = (sub) => [
-  sub.error, sub.fetchedAt > 0, sub.items.length, sub.items[0]?.link, sub.items.at(-1)?.link,
+  sub.error, sub.corsBlocked, sub.fetchedAt > 0, sub.items.length, sub.items[0]?.link, sub.items.at(-1)?.link,
 ].join('|');
 
 function refreshFeed(sub) {
@@ -158,8 +158,10 @@ function refreshFeed(sub) {
       sub.items = (await loadFeed(sub.url)).items;
       sub.fetchedAt = Date.now();
       sub.error = null;
+      sub.corsBlocked = false;
     } catch (error) {
       sub.error = error.message;
+      sub.corsBlocked = true; // usually indicates a CORS issue
     }
     if (subs.get(sub.url) === sub) {
       await persist(sub);
@@ -299,6 +301,16 @@ function createAddButton() {
   return button;
 }
 
+function createCorsBanner() {
+  const banner = el('div', 'notice cors-banner');
+  banner.innerHTML = `
+    <p>Fecthing some feeds was blocked by your browser!</p>
+
+    <p>Install a browser extension like <a href="https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/" target="_blank" rel="noopener">CORS everywhere</a> to allow fetching blocked feeds or configure a CORS proxy in the settings.</p>
+  `;
+  return banner;
+}
+
 function renderStart(all) {
   if (!all.length) {
     const empty = el('div', 'empty');
@@ -308,7 +320,7 @@ function renderStart(all) {
   }
 
   const groups = groupBy(all, (sub) => categoryName(sub.path));
-  const sections = [];
+  const sections = all.some((sub) => sub.corsBlocked) ? [createCorsBanner()] : [];
   const usedColors = new Set();
   for (const name of [...groups.keys()].sort(byName)) {
     const section = el('section', 'category');
@@ -365,6 +377,7 @@ function renderFilms(title, feedSubs, single) {
   } else if (!single && failed.length) {
     children.push(el('p', 'notice', `${failed.length} feed(s) could not be refreshed.`));
   }
+  if (failed.some((sub) => sub.corsBlocked)) children.push(createCorsBanner());
 
   const seen = new Set();
   const movies = feedSubs.flatMap((sub) => sub.items).filter((movie) => {
